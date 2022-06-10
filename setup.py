@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='cartography',
-    packages=['cartography','configs'],
+    packages=find_packages(),
     version='0.1.0',
     description='Fork from allenai/cartography ',
     author='itai@staircase.ai',
