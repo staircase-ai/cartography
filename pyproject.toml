@@ -4,7 +4,9 @@ version = "0.1.0"
 description = ""
 authors = ["itaim <itai@staircase.ai>"]
 packages = [
-    { include = "cartography" }
+    { include = "cartography" },
+    { include = "cartography/classification" },
+    { include = "cartography/selection" }
 ]
 
 [tool.poetry.dependencies]
