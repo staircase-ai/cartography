@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "cartography"
+version = "0.1.0"
+description = ""
+authors = ["itaim <itai@staircase.ai>"]
+packages = [
+    { include = "cartography" }
+]
+
+[tool.poetry.dependencies]
+
+python = "^3.8"
+#git+git://github.com/huggingface/transformers@189113d8910308b9f3509c6946b2147ce57a0bf7
+transformers = "^4.17.0"
+tqdm = "^4.43.0"
+seaborn = "^0.10.0"
+pandas = "^1.0.3"
+matplotlib = "^3.2.1"
+numpy = "^1.18.2"
+jsonnet = "^0.15.0"
+tensorboardx = "^2.0"
+torch = "^1.4.0"
+spacy = "^2.1.9"
+scikit-learn = "^0.22.2.post1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.1"
+unittest = "^0.0"
+
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
